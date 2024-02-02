@@ -1,0 +1,86 @@
+body{   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("img1.jpg");
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}  
+#box-1{
+    background-color: rgb(31, 34, 31);
+    height:400px;
+    width:700px;
+    margin-left: 28%;
+    opacity: 98%;
+    border:none;
+    border-style:hidden;
+    border-radius: 2px;
+} 
+#startgame-btn{
+    background-size: cover;
+   
+align-content: center;
+}
+h1{                                                     
+   
+    color: goldenrod;
+}
+p{
+color: antiquewhite ;
+    
+    font-size: larger;
+}
+p#outcome-msg{
+    font-style: italic;
+}
+button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background-color: goldenrod;
+    width: 25%;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+#box-1 {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #0e0d0d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #040404;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #040404;
+    background-color: goldenrod;
+}
+
+#cards-dealt, #total-sum, #msgfor-player, #outcome-msg2 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    #box-1 {
+        margin: 20px;
+    }
+}
